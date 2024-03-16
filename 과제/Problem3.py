@@ -1,0 +1,5 @@
+x = float(input("첫 변수를 입력하시오"))
+y = float(input("두 번째 변수를 입력하시오"))
+answer = 2/(1/x + 1/y)
+answer = round(answer, 2)
+print(answer)
