@@ -20,14 +20,14 @@ print()
 print("표현식 3: 정수 100을 정수 7로 나눈 나머지")
 num=100
 num2=7
-num3 = num / num2
+num3 = num // num2
 num4 = num % num2
 print(num, "/", num2, "=", num3, " 나머지:",num4 )
 
 #표현식 4
 print()
 print("표현식 4: 정수 72의 세제곱")
-num=72
+num=7.2
 num2=3
 num3=num**num2
 print(num, "^", num2, "=", num3)
