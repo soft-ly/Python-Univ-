@@ -1,0 +1,6 @@
+x=int(input("정수1을 입력하시오 : "))
+y=int(input("정수2를 입력하시오 : "))
+print(f"{x} + {y} = {x+y}")
+print(f"{x} - {y} = {x-y}")
+print(f"{x} * {y} = {x*y}")
+print(f"{x} / {y} = {x/y}")
