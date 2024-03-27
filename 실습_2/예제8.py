@@ -1,3 +1,5 @@
+answer = int(input("몇X몇으로?"))
+
 pm = "+ - - " 
 ps = "|     " 
 plus_sign = "+"
@@ -14,5 +16,5 @@ def grid(n):
         print_ps(n)
         count += 1
     print_pm(n)
-answer = int(input("몇X몇으로?"))
-grid(answer)
+    return n**2
+print(grid(answer))
