@@ -1,0 +1,6 @@
+id= input("학번은?")
+name= input("이름은?")
+highschool= input("고등학교 이름은?")
+school= input("소속 학부는?")
+print(f"학번은 {id}이고, 이름은 {name}이다.")
+print(f"고등학교는 {highschool}이고, 소속학부는 {school}이다.")
