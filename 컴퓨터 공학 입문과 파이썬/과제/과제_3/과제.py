@@ -45,7 +45,7 @@ def Cancel():
 
 
 while ThisGame == True:
-    User_Choice_of_Game=input(f"안녕하세요 {user}님! 아래의 게임 중 하고 싶으신 것을 숫자로 입력하세요! \n 1. 가위 바위 보 \n 2. 숫자 맞추기 \n 3. 생각중... \n (주의! 실수했다간 다시 해야할 수도 있으니 주의해 주세요!)\n")
+    User_Choice_of_Game=input(f"안녕하세요 {user}님! 아래의 게임 중 하고 싶으신 것을 숫자로 입력하세요! \n 1. 가위 바위 보 \n 2. 숫자 맞추기 \n (주의! 실수했다간 다시 해야할 수도 있으니 주의해 주세요!)\n")
     Game=True
     while Game==True:
         if User_Choice_of_Game == "1":
@@ -147,10 +147,8 @@ while ThisGame == True:
                 user_choice = [y,...,x]
                 winner(y,x)
 
-        elif User_Choice_of_Game == "3":
-            print("3번 까지 만들려다가 아직은 생각이 안나서 고민중...")
-
 print("Game Over")
+
         
             
             
