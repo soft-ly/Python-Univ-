@@ -4,7 +4,9 @@ info_list=[['김강현', '010-1234-5678', 20, 172.5, '제주'],
 ['최흥선', '070-4321-1111', 21, 187.2, '부산'],
 ['함중아', '010-7654-2345', 18, 178.3, '강원'],
 ['황현', '02-9871-1234', 19, 163.5, '서울']]
-phone_list=[]
+birthplace_list=[]
 for info in info_list:
-    phone_list.append(info[1])
-print(phone_list)
+    birthplace_list.append(info[4])
+    info.remove(info[4])
+print(birthplace_list)
+print(info_list)
