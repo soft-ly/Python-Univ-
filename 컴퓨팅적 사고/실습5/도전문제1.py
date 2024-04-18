@@ -8,7 +8,7 @@ def Polynomial_Discriminant():
     global c
     global answer
     return (b**2-4*a*c)
-answer= Polynomial_Discriminant()
+answer = Polynomial_Discriminant()
 def quadratic_formula_p():
     global a
     global b
