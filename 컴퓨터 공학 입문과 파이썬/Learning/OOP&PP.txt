@@ -1,0 +1,16 @@
+OOP & PP
+
+Object Oriented Programming & Procedural Programming 
+
+1. They are not opposites —> OOP is the next version of PP
+2. PP had functions, OOP has objects
+3. 
+수납상자: function, method, procedure, subroutine —> PP
+Function1
+Function2
+Function3
+
+수납상자를 더 세분화. —> OOP
+Toy.Function1
+Toy.Function2
+Toy.Function3
