@@ -20,10 +20,9 @@ data_path= Path()
 target_path = data_path / file_name 
 
 urlretrieve(file_url, target_path)
-
-
-
 filename=open("./results5m.txt",encoding="utf-8")
 
 for line in filename:
-    print(line)
+    print(line.strip())
+
+filename.close()
