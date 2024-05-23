@@ -17,8 +17,4 @@ with open(Path()/"student_scores.txt","r",encoding='utf-8') as f:
         student_intscr.append(student_score)         
 
 print(student_intscr)
-kor = []
-
-for i in student_intscr:
-    
 
