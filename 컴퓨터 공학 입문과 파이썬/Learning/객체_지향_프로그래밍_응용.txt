@@ -1,0 +1,5 @@
+Things to know:
+1. x = turtle.Screen() == 스크린 객체 선언
+2. x.title("xxx")
+3. x.mainloop() == 스크린 계속 켜져있음.
+4. 
